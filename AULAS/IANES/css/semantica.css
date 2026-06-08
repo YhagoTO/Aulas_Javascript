@@ -1,0 +1,38 @@
+body{
+    background-color: gainsboro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+}
+nav, a{
+    color: black;
+    text-decoration: none;
+
+}
+main{
+    background-color: gainsboro;
+    padding: 20px;
+}
+article{
+    display: flex;
+    gap: 20px;
+}
+section{
+    background: darkgray;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+aside{
+    background: darkgray;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+footer{
+    
+}

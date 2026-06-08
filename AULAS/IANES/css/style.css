@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    color: #000;
+}
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+section {
+    background-color: #a9a9a9;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 15px 0 10px;
+}
+p {
+    margin-bottom: 10px;
+}
+.dados-contato p {
+    margin: 5px 0;
+}
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+input,
+select,
+textarea {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+.btn-enviar {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #696969;
+}
+
+.mapa iframe {
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #a9a9a9;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto 20px;
+}
